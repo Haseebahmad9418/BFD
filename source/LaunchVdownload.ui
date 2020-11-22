@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Launch</class>
+ <widget class="QMainWindow" name="Launch">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F3F4F1;
+
+QFrame
+{
+	background:#333;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>81</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>100</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>824</width>
+          <height>400</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>824</width>
+          <height>400</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+background:#F3F4F1
+}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <widget class="QPushButton" name="PushButton">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>130</y>
+           <width>240</width>
+           <height>120</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>240</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fSf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	font: 57 11pt &quot;Ubuntu&quot;;
+background:#00648E;
+color:white;
+border-color: #00000066;
+border:1px solid #00648E;
+border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/newPrefix/icon_play.svg</normaloff>:/newPrefix/icon_play.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>66</width>
+           <height>66</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="PushButton_3">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>230</y>
+           <width>240</width>
+           <height>130</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>240</width>
+           <height>130</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:30px;&quot;&gt;fSf&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+font: 30px &quot;Segoe UI&quot;;
+
+background:#00648E;
+color:white;
+border-color: #00000066;
+
+border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Launch
+Display</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>50</width>
+           <height>53</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="PushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>230</y>
+           <width>240</width>
+           <height>130</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>240</width>
+           <height>130</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fSf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+font: 18pt &quot;Ubuntu&quot;;
+background:#00648E;
+color:white;
+border-color: #00000066;
+
+border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Download
+Content</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>50</width>
+           <height>53</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="PushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>130</y>
+           <width>240</width>
+           <height>120</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>240</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fSf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background:#00648E;
+color:white;
+border-color: #00000066;
+border:1px solid #00648E;
+border-radius:10px;
+}</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/newPrefix/icon_sync.svg</normaloff>:/newPrefix/icon_sync.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>68</width>
+           <height>89</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton5">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>370</y>
+           <width>520</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;© 2019 Big Fat Designs, LLC. All rights Reserved. &lt;/span&gt;&lt;span style=&quot; font-size:16px; text-decoration: underline;&quot;&gt;Learn More.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;© 2019 Big Fat Designs, LLC All rights Reserved. &lt;/span&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Learn More.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #F3F4F1;
+color: rgb(0, 100, 142);
+alternate-background-color: #F3F4F1;
+border: 0px;
+gridline-color: #F3F4F1;
+selection-color: #F3F4F1;
+selection-background-color: #F3F4F1;
+font: 16px &quot;Segoe UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>© 2019 Big Fat Designs, LLC. All rights Reserved. Learn More.</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>0</y>
+           <width>223</width>
+           <height>115</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/newPrefix/logo_Big-Fat-Display.svg);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>Icons/logo_Big-Fat-Designs.svg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>100</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>81</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../../Desktop/BigFat Display/Icons/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

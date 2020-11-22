@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeviceSync</class>
+ <widget class="QMainWindow" name="DeviceSync">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F3F4F1;
+QFrame
+{
+	background:#333;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>1021</width>
+        <height>66</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0,1">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>150</width>
+          <height>460</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>724</width>
+          <height>460</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>724</width>
+          <height>460</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+background:#F3F4F1
+}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>257</x>
+           <y>0</y>
+           <width>211</width>
+           <height>108</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/newPrefix/logo_Big-Fat-Display.svg);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>Icons/logo_Big-Fat-Designs.svg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="PushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>360</y>
+           <width>261</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fSf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+font: 30px &quot;Segoe UI&quot;;
+background:#00648E;
+color:white;
+border-color: #00000066;
+
+border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Retry Download</string>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>50</width>
+           <height>53</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="PushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>360</y>
+           <width>61</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fSf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background:#00648E;
+color:white;
+border-color: #00000066;
+border:1px solid #00648E;
+border-radius:10px;
+}</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Icons/icon_sync.svg</normaloff>Icons/icon_sync.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>50</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>120</y>
+           <width>311</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+	font: 75 30px &quot;Segoe UI&quot;;
+color: #00648E;
+size:30px;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:30px; font-weight:600;&quot;&gt;Synching Content&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>170</y>
+           <width>361</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+color: #00648E;
+size:15px;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:30px; color:#00648e;&quot;&gt;Contacting Server&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:30px; color:#00648e;&quot;&gt;Checking Files&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:30px; color:#00648e;&quot;&gt;Downloading Content&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:30px; color:#b10023;&quot;&gt;File Transfer Interrupted&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>379</x>
+           <y>170</y>
+           <width>321</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+color: #00648E;
+size:15px;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:30px; color:#00648e;&quot;&gt;.................. Success!&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:30px; color:#00648e;&quot;&gt;.................. Success!&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:30px; color:#00648e;&quot;&gt;..................... &lt;/span&gt;&lt;span style=&quot; font-size:30px; color:#b10023;&quot;&gt;ERROR&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>430</y>
+           <width>511</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #F3F4F1;
+color: rgb(0, 100, 142);
+alternate-background-color: #F3F4F1;
+border: 0px;
+gridline-color: #F3F4F1;
+selection-color: #F3F4F1;
+selection-background-color: #F3F4F1;
+font: 16px &quot;Segoe UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>© 2019 Big Fat Designs, LLC. All rights Reserved. Learn More.</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>150</width>
+          <height>460</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>1021</width>
+        <height>66</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../../Desktop/BigFat Display/Icons/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

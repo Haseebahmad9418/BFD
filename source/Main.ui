@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main</class>
+ <widget class="QMainWindow" name="Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FFFFFF;
+QFrame
+{
+	background:#333;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>1003</width>
+        <height>61</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>75</width>
+          <height>440</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>874</width>
+          <height>440</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>874</width>
+          <height>440</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+background:#FFFFFF
+}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <widget class="QPushButton" name="PushButton">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>190</y>
+           <width>316</width>
+           <height>204</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fSf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	font: 30px &quot;Segoe UI&quot;;
+background:#000000;
+color:white;
+border-color: #00000066;
+border:1px solid #00648E;
+border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string>First Time Install
+	--
+Register New Device</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>118</y>
+           <width>831</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+font: 75 11pt &quot;Segoe UI&quot;;
+color: #00648E;
+size:30px;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:30px; font-weight:600; color:#00648e;&quot;&gt;For Developers: Select The Workflow To Preview&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>327</x>
+           <y>0</y>
+           <width>210</width>
+           <height>108</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/newPrefix/logo_Big-Fat-Display.svg);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>Icons/logo_Big-Fat-Display.svg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="PushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>190</y>
+           <width>316</width>
+           <height>204</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="whatsThis">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fSf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background:#000000;
+	font: 30px &quot;Segoe UI&quot;;
+color:white;
+border-color: #00000066;
+border:1px solid #00648E;
+border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Standard Bootup
+	--
+Registered Device</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>476</x>
+           <y>498</y>
+           <width>96</width>
+           <height>52</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/newPrefix/logo_Big-Fat-Designs.svg);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>410</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="whatsThis">
+          <string>© 2019 Big Fat Designs, LLC All rights Reserved.</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 100, 142);
+font: 16px &quot;Segoe UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16px; color:#00648e;&quot;&gt;© 2019 Big Fat Designs, LLC All rights Reserved.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>75</width>
+          <height>440</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>1003</width>
+        <height>61</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../../Desktop/BigFat Display/Icons/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

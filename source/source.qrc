@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>powered-by-raspberry-pi-vector-logo.svg</file>
+    <file>icon_sync.svg</file>
+    <file>icon_play.svg</file>
+    <file>logo_Big-Fat-Designs.svg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>logo_Big-Fat-Designs.svg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>logo_Big-Fat-Display.svg</file>
+  </qresource>
+</RCC>
